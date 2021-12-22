@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP DA14683-00000U22
+D DIALOG SEMICONDUCTOR - DA14683-00000U22 - MCU, 32BIT, 96MHZ, WLCSP-53
+K
+F https://www.dialog-semiconductor.com/sites/default/files/da14683_ds_3v1.pdf
+$ENDCMP
+#
+$CMP MC3630
+D Accelerometers Digital output 3 Axis Acceleronmeter
+K
+F https://mcubemems.com/wp-content/uploads/2019/11/MC3630-Datasheet-APS-048-0047v1.5.pdf
+$ENDCMP
+#
+$CMP SPG08P4HM4H-1
+D MEMS Microphones Multimode Digital Top Port Sisonic Microphone
+K
+F https://www.knowles.com/docs/default-source/default-document-library/spg08p4hm4h-1-baracus-datasheet-rev-b.pdf
+$ENDCMP
+#
+$CMP ECH8693R-TL-W
+D ON SEMICONDUCTOR - ECH8693R-TL-W - MOSFET, DUAL N-CH, 24V, 14A, SOT-28FL
+K
+F http://www.onsemi.com/pub/Collateral/ECH8693R-D.PDF
+$ENDCMP
+#
+$CMP SSM2604CPZ-REEL7
+D ANALOG DEVICES - SSM2604CPZ-REEL7 - AUDIO CODEC, 24BIT, 96KSPS, LFCSP-20
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ssm2604.pdf
+$ENDCMP
+#
+#End Doc Library
