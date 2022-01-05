@@ -36,4 +36,16 @@ K
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ssm2604.pdf
 $ENDCMP
 #
+$CMP SMS-1508MS-HT-R
+D SURFACE MOUNT SPEAKER .8 W 8 OHM
+K
+F https://www.mouser.ch/datasheet/2/334/SMS_1508MS_HT_R-1903128.pdf
+$ENDCMP
+#
+$CMP 6PAIC3109TWRHMRQ1
+D Automotive Low-Power 96kHz Mono Audio Codec
+K
+F http://www.ti.com/lit/gpn/tlv320aic3109-q1
+$ENDCMP
+#
 #End Doc Library
