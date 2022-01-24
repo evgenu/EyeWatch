@@ -1515,10 +1515,10 @@ F 3 "~" H 5700 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 2650 5850 2650
-Text Label 5350 2650 0    50   ~ 0
+Text Label 5300 2650 0    50   ~ 0
 RFIOP
 Wire Wire Line
-	5550 2650 5350 2650
+	5500 2650 5300 2650
 $Comp
 L Device:C C22
 U 1 1 61DC56DD
@@ -1534,23 +1534,23 @@ Connection ~ 5900 2650
 $Comp
 L Device:C C21
 U 1 1 61DC6589
-P 5550 2800
-F 0 "C21" H 5550 2900 50  0000 L CNN
-F 1 "C" H 5550 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5588 2650 50  0001 C CNN
-F 3 "~" H 5550 2800 50  0001 C CNN
-	1    5550 2800
+P 5500 2800
+F 0 "C21" H 5500 2900 50  0000 L CNN
+F 1 "C" H 5500 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 5538 2650 50  0001 C CNN
+F 3 "~" H 5500 2800 50  0001 C CNN
+	1    5500 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR0123
 U 1 1 61DDB960
-P 5550 2950
-F 0 "#PWR0123" H 5550 2700 50  0001 C CNN
-F 1 "GNDREF" H 5555 2777 50  0000 C CNN
-F 2 "" H 5550 2950 50  0001 C CNN
-F 3 "" H 5550 2950 50  0001 C CNN
-	1    5550 2950
+P 5500 2950
+F 0 "#PWR0123" H 5500 2700 50  0001 C CNN
+F 1 "GNDREF" H 5505 2777 50  0000 C CNN
+F 2 "" H 5500 2950 50  0001 C CNN
+F 3 "" H 5500 2950 50  0001 C CNN
+	1    5500 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1564,7 +1564,6 @@ F 3 "" H 5900 2950 50  0001 C CNN
 	1    5900 2950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5550 2650
 Wire Notes Line width 39 style solid rgb(0, 0, 0)
 	500  800  16000 800 
 Wire Notes Line width 39 style solid rgb(0, 0, 0)
@@ -2850,45 +2849,6 @@ F 3 "" H 9800 3350 50  0001 C CNN
 	1    9800 3350
 	0    1    1    0   
 $EndComp
-$Comp
-L Switch:SW_MEC_5E SW1
-U 1 1 61E3665D
-P 7100 10350
-F 0 "SW1" H 7100 10735 50  0000 C CNN
-F 1 "UP" H 7100 10644 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7100 10650 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 7100 10650 50  0001 C CNN
-	1    7100 10350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_MEC_5E SW2
-U 1 1 61E380F9
-P 7750 10350
-F 0 "SW2" H 7750 10735 50  0000 C CNN
-F 1 "CHOOSE" H 7750 10644 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7750 10650 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 7750 10650 50  0001 C CNN
-	1    7750 10350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_MEC_5E SW3
-U 1 1 61E6124E
-P 8400 10350
-F 0 "SW3" H 8400 10735 50  0000 C CNN
-F 1 "DOWN" H 8400 10644 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 8400 10650 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 8400 10650 50  0001 C CNN
-	1    8400 10350
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 7100 10550
-NoConn ~ 7100 10150
-NoConn ~ 7750 10150
-NoConn ~ 7750 10550
-NoConn ~ 8400 10550
-NoConn ~ 8400 10150
 NoConn ~ 9800 8650
 NoConn ~ 9900 8650
 NoConn ~ 10000 8650
@@ -3031,10 +2991,10 @@ WR
 Text Label 11150 2750 0    50   ~ 0
 P3_4
 $Comp
-L power:GND #PWR?
+L power:GND #PWR028
 U 1 1 61ECD16D
 P 9800 2750
-F 0 "#PWR?" H 9800 2500 50  0001 C CNN
+F 0 "#PWR028" H 9800 2500 50  0001 C CNN
 F 1 "GND" V 9800 2550 50  0000 C CNN
 F 2 "" H 9800 2750 50  0001 C CNN
 F 3 "" H 9800 2750 50  0001 C CNN
@@ -3044,10 +3004,10 @@ $EndComp
 Wire Wire Line
 	9800 5800 9800 6050
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR027
 U 1 1 61F336D3
 P 9700 6050
-F 0 "#PWR?" H 9700 5800 50  0001 C CNN
+F 0 "#PWR027" H 9700 5800 50  0001 C CNN
 F 1 "GNDA" H 9700 5900 50  0000 C CNN
 F 2 "" H 9700 6050 50  0001 C CNN
 F 3 "" H 9700 6050 50  0001 C CNN
@@ -3079,5 +3039,41 @@ P1_7
 Text Label 8900 7250 0    50   ~ 0
 P3_1
 Text Label 8900 7350 0    50   ~ 0
-CODEC_DOUT
+P3_2
+$Comp
+L Switch:SW_MEC_5G SW1
+U 1 1 61EEDF3D
+P 7000 10350
+F 0 "SW1" V 7046 10302 50  0000 R CNN
+F 1 "UP" V 6955 10302 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7000 10550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7000 10550 50  0001 C CNN
+	1    7000 10350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW2
+U 1 1 61F47DF6
+P 7650 10350
+F 0 "SW2" V 7696 10302 50  0000 R CNN
+F 1 "CHOOSE" V 7605 10302 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7650 10550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7650 10550 50  0001 C CNN
+	1    7650 10350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW3
+U 1 1 61F74894
+P 8300 10350
+F 0 "SW3" V 8346 10302 50  0000 R CNN
+F 1 "DOWN" V 8255 10302 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 8300 10550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 10550 50  0001 C CNN
+	1    8300 10350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2650 5500 2650
+Connection ~ 5500 2650
 $EndSCHEMATC
