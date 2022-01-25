@@ -18,7 +18,7 @@ L Battery_Management:BQ297xy U1
 U 1 1 6153564A
 P 2300 8600
 F 0 "U1" H 2300 8967 50  0000 C CNN
-F 1 "BQ297xy" H 2300 8876 50  0000 C CNN
+F 1 "BQ29700DSER" H 2300 8876 50  0000 C CNN
 F 2 "Package_SON:WSON-6_1.5x1.5mm_P0.5mm" H 2300 8950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/bq2970.pdf" H 2050 8800 50  0001 C CNN
 	1    2300 8600
@@ -1515,10 +1515,6 @@ F 3 "~" H 5700 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 2650 5850 2650
-Text Label 5300 2650 0    50   ~ 0
-RFIOP
-Wire Wire Line
-	5500 2650 5300 2650
 $Comp
 L Device:C C22
 U 1 1 61DC56DD
@@ -1531,28 +1527,6 @@ F 3 "~" H 5900 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5900 2650
-$Comp
-L Device:C C21
-U 1 1 61DC6589
-P 5500 2800
-F 0 "C21" H 5500 2900 50  0000 L CNN
-F 1 "C" H 5500 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric" H 5538 2650 50  0001 C CNN
-F 3 "~" H 5500 2800 50  0001 C CNN
-	1    5500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR0123
-U 1 1 61DDB960
-P 5500 2950
-F 0 "#PWR0123" H 5500 2700 50  0001 C CNN
-F 1 "GNDREF" H 5505 2777 50  0000 C CNN
-F 2 "" H 5500 2950 50  0001 C CNN
-F 3 "" H 5500 2950 50  0001 C CNN
-	1    5500 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDREF #PWR0124
 U 1 1 61E059F0
@@ -3073,7 +3047,31 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    8300 10350
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:GNDREF #PWR0123
+U 1 1 61DDB960
+P 5550 2950
+F 0 "#PWR0123" H 5550 2700 50  0001 C CNN
+F 1 "GNDREF" H 5555 2777 50  0000 C CNN
+F 2 "" H 5550 2950 50  0001 C CNN
+F 3 "" H 5550 2950 50  0001 C CNN
+	1    5550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 61DC6589
+P 5550 2800
+F 0 "C21" H 5550 2900 50  0000 L CNN
+F 1 "C" H 5550 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 5588 2650 50  0001 C CNN
+F 3 "~" H 5550 2800 50  0001 C CNN
+	1    5550 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 2650
 Wire Wire Line
-	5550 2650 5500 2650
-Connection ~ 5500 2650
+	5550 2650 5350 2650
+Text Label 5350 2650 0    50   ~ 0
+RFIOP
 $EndSCHEMATC
