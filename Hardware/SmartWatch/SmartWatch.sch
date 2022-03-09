@@ -2110,9 +2110,9 @@ F 3 "~" H 14750 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 15000 3400 0    50   ~ 0
-ARD_RX
-Text Label 15000 3500 0    50   ~ 0
 ARD_TX
+Text Label 15000 3500 0    50   ~ 0
+ARD_RX
 Text Label 15000 3600 0    50   ~ 0
 ARD_RST
 Text Label 13850 3200 0    50   ~ 0
@@ -3015,39 +3015,6 @@ P3_1
 Text Label 8900 7350 0    50   ~ 0
 P3_2
 $Comp
-L Switch:SW_MEC_5G SW1
-U 1 1 61EEDF3D
-P 7000 10350
-F 0 "SW1" V 7046 10302 50  0000 R CNN
-F 1 "UP" V 6955 10302 50  0000 R CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7000 10550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7000 10550 50  0001 C CNN
-	1    7000 10350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW2
-U 1 1 61F47DF6
-P 7650 10350
-F 0 "SW2" V 7696 10302 50  0000 R CNN
-F 1 "CHOOSE" V 7605 10302 50  0000 R CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7650 10550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7650 10550 50  0001 C CNN
-	1    7650 10350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW3
-U 1 1 61F74894
-P 8300 10350
-F 0 "SW3" V 8346 10302 50  0000 R CNN
-F 1 "DOWN" V 8255 10302 50  0000 R CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 8300 10550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8300 10550 50  0001 C CNN
-	1    8300 10350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GNDREF #PWR0123
 U 1 1 61DDB960
 P 5550 2950
@@ -3074,4 +3041,37 @@ Wire Wire Line
 	5550 2650 5350 2650
 Text Label 5350 2650 0    50   ~ 0
 RFIOP
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6224D004
+P 7000 10350
+F 0 "SW1" V 7046 10302 50  0000 R CNN
+F 1 "UP" V 6955 10302 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7000 10550 50  0001 C CNN
+F 3 "~" H 7000 10550 50  0001 C CNN
+	1    7000 10350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 622AB2C8
+P 7650 10350
+F 0 "SW2" V 7696 10302 50  0000 R CNN
+F 1 "CHOOSE" V 7605 10302 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 7650 10550 50  0001 C CNN
+F 3 "~" H 7650 10550 50  0001 C CNN
+	1    7650 10350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 622D7CC9
+P 8300 10350
+F 0 "SW3" V 8346 10302 50  0000 R CNN
+F 1 "DOWN" V 8255 10302 50  0000 R CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 8300 10550 50  0001 C CNN
+F 3 "~" H 8300 10550 50  0001 C CNN
+	1    8300 10350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
